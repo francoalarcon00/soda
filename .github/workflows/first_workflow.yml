@@ -20,5 +20,5 @@
        with:
          soda_library_version: v1.0.4
          data_source: adventureworks
-         configuration: ./configuration.yml
-         checks: ./checks.yml
+         configuration: ./sqlserver_configuration.yml
+         checks: ./sqlserver_checks.yml

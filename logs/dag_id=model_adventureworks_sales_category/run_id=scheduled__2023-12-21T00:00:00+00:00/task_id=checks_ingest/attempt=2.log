@@ -1,0 +1,70 @@
+[2023-12-22T10:48:20.987-0300] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: model_adventureworks_sales_category.checks_ingest scheduled__2023-12-21T00:00:00+00:00 [queued]>
+[2023-12-22T10:48:20.991-0300] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: model_adventureworks_sales_category.checks_ingest scheduled__2023-12-21T00:00:00+00:00 [queued]>
+[2023-12-22T10:48:20.991-0300] {taskinstance.py:2171} INFO - Starting attempt 2 of 2
+[2023-12-22T10:48:21.177-0300] {taskinstance.py:2192} INFO - Executing <Task(PythonVirtualenvOperator): checks_ingest> on 2023-12-21 00:00:00+00:00
+[2023-12-22T10:48:21.183-0300] {standard_task_runner.py:60} INFO - Started process 19405 to run task
+[2023-12-22T10:48:21.187-0300] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'model_adventureworks_sales_category', 'checks_ingest', 'scheduled__2023-12-21T00:00:00+00:00', '--job-id', '24', '--raw', '--subdir', 'DAGS_FOLDER/model_sales_category.py', '--cfg-path', '/tmp/tmpofpta7qm']
+[2023-12-22T10:48:21.188-0300] {standard_task_runner.py:88} INFO - Job 24: Subtask checks_ingest
+[2023-12-22T10:48:21.346-0300] {task_command.py:423} INFO - Running <TaskInstance: model_adventureworks_sales_category.checks_ingest scheduled__2023-12-21T00:00:00+00:00 [running]> on host franco-MS-7B84
+[2023-12-22T10:48:21.646-0300] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='soda_core' AIRFLOW_CTX_DAG_ID='model_adventureworks_sales_category' AIRFLOW_CTX_TASK_ID='checks_ingest' AIRFLOW_CTX_EXECUTION_DATE='2023-12-21T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-21T00:00:00+00:00'
+[2023-12-22T10:48:21.647-0300] {process_utils.py:182} INFO - Executing cmd: /home/franco/Documents/Projects/soda/.venv/bin/python -m virtualenv /tmp/venvusg1a5s_ --python=python
+[2023-12-22T10:48:21.648-0300] {process_utils.py:186} INFO - Output:
+[2023-12-22T10:48:21.660-0300] {process_utils.py:190} INFO - /home/franco/Documents/Projects/soda/.venv/bin/python: No module named virtualenv
+[2023-12-22T10:48:21.662-0300] {taskinstance.py:2699} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/operators/python.py", line 400, in execute
+    return super().execute(context=serializable_context)
+  File "/home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/operators/python.py", line 711, in execute_callable
+    self._prepare_venv(tmp_path)
+  File "/home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/operators/python.py", line 623, in _prepare_venv
+    prepare_virtualenv(
+  File "/home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/utils/python_virtualenv.py", line 104, in prepare_virtualenv
+    execute_in_subprocess(virtualenv_cmd)
+  File "/home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/utils/process_utils.py", line 171, in execute_in_subprocess
+    execute_in_subprocess_with_kwargs(cmd, cwd=cwd)
+  File "/home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/utils/process_utils.py", line 194, in execute_in_subprocess_with_kwargs
+    raise subprocess.CalledProcessError(exit_code, cmd)
+subprocess.CalledProcessError: Command '['/home/franco/Documents/Projects/soda/.venv/bin/python', '-m', 'virtualenv', '/tmp/venvusg1a5s_', '--python=python']' returned non-zero exit status 1.
+[2023-12-22T10:48:21.667-0300] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=model_adventureworks_sales_category, task_id=checks_ingest, execution_date=20231221T000000, start_date=20231222T134820, end_date=20231222T134821
+[2023-12-22T10:48:21.861-0300] {standard_task_runner.py:107} ERROR - Failed to execute job 24 for task checks_ingest (Command '['/home/franco/Documents/Projects/soda/.venv/bin/python', '-m', 'virtualenv', '/tmp/venvusg1a5s_', '--python=python']' returned non-zero exit status 1.; 19405)
+[2023-12-22T10:48:21.878-0300] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2023-12-22T10:48:21.891-0300] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-12-22T11:03:45.017-0300] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: model_adventureworks_sales_category.checks_ingest scheduled__2023-12-21T00:00:00+00:00 [queued]>
+[2023-12-22T11:03:45.043-0300] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: model_adventureworks_sales_category.checks_ingest scheduled__2023-12-21T00:00:00+00:00 [queued]>
+[2023-12-22T11:03:45.044-0300] {taskinstance.py:2171} INFO - Starting attempt 2 of 2
+[2023-12-22T11:03:45.194-0300] {taskinstance.py:2192} INFO - Executing <Task(PythonVirtualenvOperator): checks_ingest> on 2023-12-21 00:00:00+00:00
+[2023-12-22T11:03:45.198-0300] {standard_task_runner.py:60} INFO - Started process 26246 to run task
+[2023-12-22T11:03:45.200-0300] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'model_adventureworks_sales_category', 'checks_ingest', 'scheduled__2023-12-21T00:00:00+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/model_sales_category.py', '--cfg-path', '/tmp/tmpyfc3f3p1']
+[2023-12-22T11:03:45.202-0300] {standard_task_runner.py:88} INFO - Job 30: Subtask checks_ingest
+[2023-12-22T11:03:45.407-0300] {task_command.py:423} INFO - Running <TaskInstance: model_adventureworks_sales_category.checks_ingest scheduled__2023-12-21T00:00:00+00:00 [running]> on host franco-MS-7B84
+[2023-12-22T11:03:45.967-0300] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='soda_core' AIRFLOW_CTX_DAG_ID='model_adventureworks_sales_category' AIRFLOW_CTX_TASK_ID='checks_ingest' AIRFLOW_CTX_EXECUTION_DATE='2023-12-21T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-21T00:00:00+00:00'
+[2023-12-22T11:03:45.968-0300] {process_utils.py:182} INFO - Executing cmd: /home/franco/Documents/Projects/soda/.venv/bin/python -m virtualenv /tmp/venvlw45jqni --python=python
+[2023-12-22T11:03:45.969-0300] {process_utils.py:186} INFO - Output:
+[2023-12-22T11:03:45.982-0300] {process_utils.py:190} INFO - /home/franco/Documents/Projects/soda/.venv/bin/python: No module named virtualenv
+[2023-12-22T11:03:45.984-0300] {taskinstance.py:2699} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/operators/python.py", line 400, in execute
+    return super().execute(context=serializable_context)
+  File "/home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/operators/python.py", line 711, in execute_callable
+    self._prepare_venv(tmp_path)
+  File "/home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/operators/python.py", line 623, in _prepare_venv
+    prepare_virtualenv(
+  File "/home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/utils/python_virtualenv.py", line 104, in prepare_virtualenv
+    execute_in_subprocess(virtualenv_cmd)
+  File "/home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/utils/process_utils.py", line 171, in execute_in_subprocess
+    execute_in_subprocess_with_kwargs(cmd, cwd=cwd)
+  File "/home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/utils/process_utils.py", line 194, in execute_in_subprocess_with_kwargs
+    raise subprocess.CalledProcessError(exit_code, cmd)
+subprocess.CalledProcessError: Command '['/home/franco/Documents/Projects/soda/.venv/bin/python', '-m', 'virtualenv', '/tmp/venvlw45jqni', '--python=python']' returned non-zero exit status 1.
+[2023-12-22T11:03:45.990-0300] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=model_adventureworks_sales_category, task_id=checks_ingest, execution_date=20231221T000000, start_date=20231222T140345, end_date=20231222T140345
+[2023-12-22T11:03:46.133-0300] {standard_task_runner.py:107} ERROR - Failed to execute job 30 for task checks_ingest (Command '['/home/franco/Documents/Projects/soda/.venv/bin/python', '-m', 'virtualenv', '/tmp/venvlw45jqni', '--python=python']' returned non-zero exit status 1.; 26246)
+[2023-12-22T11:03:46.174-0300] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2023-12-22T11:03:46.196-0300] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

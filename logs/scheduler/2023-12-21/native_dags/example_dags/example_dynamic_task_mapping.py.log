@@ -1,0 +1,11 @@
+[2023-12-21T11:45:09.836-0300] {processor.py:161} INFO - Started process (PID=44361) to work on /home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2023-12-21T11:45:09.837-0300] {processor.py:830} INFO - Processing file /home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2023-12-21T11:45:09.837-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:45:09.837-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2023-12-21T11:45:09.843-0300] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2023-12-21T11:45:10.150-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:45:10.149-0300] {override.py:1769} INFO - Created Permission View: can read on DAG:example_dynamic_task_mapping
+[2023-12-21T11:45:10.312-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:45:10.312-0300] {override.py:1769} INFO - Created Permission View: can delete on DAG:example_dynamic_task_mapping
+[2023-12-21T11:45:10.458-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:45:10.457-0300] {override.py:1769} INFO - Created Permission View: can edit on DAG:example_dynamic_task_mapping
+[2023-12-21T11:45:10.458-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:45:10.458-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-21T11:45:10.468-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:45:10.468-0300] {dag.py:3055} INFO - Creating ORM DAG for example_dynamic_task_mapping
+[2023-12-21T11:45:10.477-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:45:10.476-0300] {dag.py:3820} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04T00:00:00+00:00, run_after=2022-03-05T00:00:00+00:00
+[2023-12-21T11:45:10.756-0300] {processor.py:183} INFO - Processing /home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.922 seconds

@@ -1,0 +1,18 @@
+[2023-12-21T11:44:02.981-0300] {processor.py:161} INFO - Started process (PID=44042) to work on /home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-12-21T11:44:02.982-0300] {processor.py:830} INFO - Processing file /home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-12-21T11:44:02.983-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:44:02.982-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-12-21T11:44:02.987-0300] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-12-21T11:44:03.429-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:44:03.428-0300] {override.py:1769} INFO - Created Permission View: can read on DAG:tutorial_dag
+[2023-12-21T11:44:03.624-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:44:03.623-0300] {override.py:1769} INFO - Created Permission View: can delete on DAG:tutorial_dag
+[2023-12-21T11:44:03.749-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:44:03.748-0300] {override.py:1769} INFO - Created Permission View: can edit on DAG:tutorial_dag
+[2023-12-21T11:44:03.749-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:44:03.749-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-21T11:44:03.759-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:44:03.759-0300] {dag.py:3055} INFO - Creating ORM DAG for tutorial_dag
+[2023-12-21T11:44:03.760-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:44:03.760-0300] {dag.py:3820} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-12-21T11:44:03.960-0300] {processor.py:183} INFO - Processing /home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.981 seconds
+[2023-12-21T11:45:58.021-0300] {processor.py:161} INFO - Started process (PID=44750) to work on /home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-12-21T11:45:58.071-0300] {processor.py:830} INFO - Processing file /home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-12-21T11:45:58.072-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:45:58.072-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-12-21T11:45:58.076-0300] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-12-21T11:45:58.086-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:45:58.086-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-21T11:45:58.092-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:45:58.092-0300] {dag.py:3820} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-12-21T11:45:58.494-0300] {processor.py:183} INFO - Processing /home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.476 seconds

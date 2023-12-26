@@ -1,0 +1,18 @@
+[2023-12-21T11:44:22.909-0300] {processor.py:161} INFO - Started process (PID=44142) to work on /home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2023-12-21T11:44:22.910-0300] {processor.py:830} INFO - Processing file /home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2023-12-21T11:44:22.911-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:44:22.911-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2023-12-21T11:44:22.917-0300] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2023-12-21T11:44:23.282-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:44:23.281-0300] {override.py:1769} INFO - Created Permission View: can read on DAG:example_python_decorator
+[2023-12-21T11:44:23.453-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:44:23.452-0300] {override.py:1769} INFO - Created Permission View: can delete on DAG:example_python_decorator
+[2023-12-21T11:44:23.678-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:44:23.678-0300] {override.py:1769} INFO - Created Permission View: can edit on DAG:example_python_decorator
+[2023-12-21T11:44:23.678-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:44:23.678-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-21T11:44:23.689-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:44:23.689-0300] {dag.py:3055} INFO - Creating ORM DAG for example_python_decorator
+[2023-12-21T11:44:23.690-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:44:23.690-0300] {dag.py:3820} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2023-12-21T11:44:23.903-0300] {processor.py:183} INFO - Processing /home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py took 0.996 seconds
+[2023-12-21T11:46:16.327-0300] {processor.py:161} INFO - Started process (PID=44845) to work on /home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2023-12-21T11:46:16.352-0300] {processor.py:830} INFO - Processing file /home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2023-12-21T11:46:16.352-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:46:16.352-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2023-12-21T11:46:16.358-0300] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2023-12-21T11:46:16.369-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:46:16.369-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-21T11:46:16.375-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:46:16.375-0300] {dag.py:3820} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2023-12-21T11:46:16.513-0300] {processor.py:183} INFO - Processing /home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py took 0.188 seconds

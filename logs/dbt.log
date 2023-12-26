@@ -1,0 +1,30 @@
+[0m11:30:44.295814 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f99c7d1df30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f99c57ef4f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f99c57ef490>]}
+
+
+============================== 11:30:44.298136 | 6531d80f-22e5-43c9-8b97-8ced0c37d573 ==============================
+[0m11:30:44.298136 [info ] [MainThread]: Running with dbt=1.7.4
+[0m11:30:44.298778 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/home/franco/.dbt', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt run --project-dir /home/franco/Documents/Projects/soda/dbt/dbt_models/models --select transform', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:30:44.299324 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/franco/Documents/Projects/soda/dbt/dbt_models/models/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m11:30:44.300086 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.042841457, "process_user_time": 1.750252, "process_kernel_time": 0.127872, "process_mem_max_rss": "98768", "process_out_blocks": "8", "command_success": false, "process_in_blocks": "0"}
+[0m11:30:44.300663 [debug] [MainThread]: Command `dbt run` failed at 11:30:44.300514 after 0.04 seconds
+[0m11:30:44.301077 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f99c7d1df30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f99c57ef580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f99c57ef4c0>]}
+[0m11:30:44.301492 [debug] [MainThread]: Flushing usage events
+[0m11:33:06.887785 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3980141f30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f397dcdb4c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f397dcdb460>]}
+
+
+============================== 11:33:06.890055 | 12539d44-ca06-4ea6-9264-dc8bcf86bfa5 ==============================
+[0m11:33:06.890055 [info ] [MainThread]: Running with dbt=1.7.4
+[0m11:33:06.890582 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': '/home/franco/.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run --project-dir /home/franco/Documents/Projects/soda/dbt/dbt_models/models --select transform', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:33:06.891144 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/franco/Documents/Projects/soda/dbt/dbt_models/models/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m11:33:06.891949 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.039045844, "process_user_time": 1.695114, "process_kernel_time": 0.127933, "process_mem_max_rss": "98548", "process_out_blocks": "16", "command_success": false, "process_in_blocks": "0"}
+[0m11:33:06.892529 [debug] [MainThread]: Command `dbt run` failed at 11:33:06.892382 after 0.04 seconds
+[0m11:33:06.893107 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3980141f30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f397dcdb550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f397dcdb490>]}
+[0m11:33:06.893522 [debug] [MainThread]: Flushing usage events

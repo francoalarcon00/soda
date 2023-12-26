@@ -1,0 +1,18 @@
+[2023-12-21T11:44:18.468-0300] {processor.py:161} INFO - Started process (PID=44109) to work on /home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-12-21T11:44:18.469-0300] {processor.py:830} INFO - Processing file /home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-12-21T11:44:18.469-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:44:18.469-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-12-21T11:44:18.474-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-12-21T11:44:18.809-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:44:18.808-0300] {override.py:1769} INFO - Created Permission View: can read on DAG:example_skip_dag
+[2023-12-21T11:44:18.974-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:44:18.974-0300] {override.py:1769} INFO - Created Permission View: can delete on DAG:example_skip_dag
+[2023-12-21T11:44:19.125-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:44:19.125-0300] {override.py:1769} INFO - Created Permission View: can edit on DAG:example_skip_dag
+[2023-12-21T11:44:19.126-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:44:19.126-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-21T11:44:19.136-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:44:19.136-0300] {dag.py:3055} INFO - Creating ORM DAG for example_skip_dag
+[2023-12-21T11:44:19.146-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:44:19.146-0300] {dag.py:3820} INFO - Setting next_dagrun for example_skip_dag to 2023-12-20T00:00:00+00:00, run_after=2023-12-21T00:00:00+00:00
+[2023-12-21T11:44:19.342-0300] {processor.py:183} INFO - Processing /home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.876 seconds
+[2023-12-21T11:46:13.938-0300] {processor.py:161} INFO - Started process (PID=44834) to work on /home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-12-21T11:46:13.939-0300] {processor.py:830} INFO - Processing file /home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-12-21T11:46:13.940-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:46:13.939-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-12-21T11:46:13.944-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-12-21T11:46:13.954-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:46:13.954-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-21T11:46:13.965-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:46:13.965-0300] {dag.py:3820} INFO - Setting next_dagrun for example_skip_dag to 2023-12-20T00:00:00+00:00, run_after=2023-12-21T00:00:00+00:00
+[2023-12-21T11:46:14.035-0300] {processor.py:183} INFO - Processing /home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.098 seconds

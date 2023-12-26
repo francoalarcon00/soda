@@ -1,0 +1,11 @@
+[2023-12-21T11:45:35.996-0300] {processor.py:161} INFO - Started process (PID=44530) to work on /home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2023-12-21T11:45:35.998-0300] {processor.py:830} INFO - Processing file /home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2023-12-21T11:45:35.999-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:45:35.998-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2023-12-21T11:45:36.007-0300] {processor.py:840} INFO - DAG(s) 'example_kubernetes_executor' retrieved from /home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2023-12-21T11:45:36.494-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:45:36.493-0300] {override.py:1769} INFO - Created Permission View: can read on DAG:example_kubernetes_executor
+[2023-12-21T11:45:36.699-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:45:36.699-0300] {override.py:1769} INFO - Created Permission View: can delete on DAG:example_kubernetes_executor
+[2023-12-21T11:45:36.826-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:45:36.826-0300] {override.py:1769} INFO - Created Permission View: can edit on DAG:example_kubernetes_executor
+[2023-12-21T11:45:36.826-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:45:36.826-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-21T11:45:36.837-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:45:36.837-0300] {dag.py:3055} INFO - Creating ORM DAG for example_kubernetes_executor
+[2023-12-21T11:45:36.838-0300] {logging_mixin.py:188} INFO - [2023-12-21T11:45:36.838-0300] {dag.py:3820} INFO - Setting next_dagrun for example_kubernetes_executor to None, run_after=None
+[2023-12-21T11:45:37.079-0300] {processor.py:183} INFO - Processing /home/franco/Documents/Projects/soda/.venv/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py took 1.085 seconds

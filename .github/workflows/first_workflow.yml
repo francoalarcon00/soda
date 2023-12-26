@@ -15,10 +15,10 @@
        env:
          SODA_CLOUD_API_KEY: ${{ secrets.SODA_CLOUD_API_KEY }}
          SODA_CLOUD_API_SECRET: ${{ secrets.SODA_CLOUD_API_SECRET }}
-         POSTGRES_USERNAME: ${{ secrets.POSTGRES_USERNAME }}
-         POSTGRES_PASSWORD: ${{ secrets.POSTGRES_PASSWORD }}
+         SQLSERVER_USERNAME: ${{ secrets.SQLSERVER_USERNAME }}
+         SQLSERVER_PASSWORD: ${{ secrets.SQLSERVER_PASSWORD }}
        with:
          soda_library_version: v1.0.4
          data_source: adventureworks
-         configuration: ./configuration.yml
-         checks: ./checks.yml
+         configuration: ./sqlserver_configuration.yml
+         checks: ./sqlserver_checks.yml

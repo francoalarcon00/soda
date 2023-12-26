@@ -57,7 +57,7 @@ checks for SalesOrderDetail:
 # This feature is not yet available for SQL Server, which was the system used for our data.
 
 
-# c. The template functionality is not yet available for SQL Server. We comment the check below in order for checks to work.
+# d. The template functionality is not yet available for SQL Server. We comment the check below in order for checks to work.
 #- $template_rowcount:
 #      parameters:
 #            table: SalesOrderDetail

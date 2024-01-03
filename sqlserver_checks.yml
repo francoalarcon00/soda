@@ -1,4 +1,4 @@
-# i. 4 different Validity Metrics using soda
+# i. 4 different Validity Metrics using sodaA
 checks for Customer:
 - invalid_count(Phone) = 0:
       valid format: phone number
